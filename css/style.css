@@ -1,0 +1,25 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+  }
+/*  NAVIGATION MENU */
+nav {
+    width: 15vw;
+    padding-top: 80px;
+    height: 100vh;
+    color: white;
+    border-right: 1px solid white;
+    /* position: fixed; */
+    display: flex;
+    flex-direction: column;
+
+  }
+
+.social-icon {
+    height: 20px;
+    width: 20px;
+}
+.icon {
+    height: 100%;
+    width: 100%;
+}
