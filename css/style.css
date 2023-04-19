@@ -215,3 +215,22 @@ img {
 .menu8 {
     grid-area: 6 / 2 / 8 / 4;
 }
+
+.ad1 {
+    grid-area: 1 / 1 / 5 / 2;
+}
+.ad4 {
+    grid-area: 1 / 2 / 3 / 3;
+}
+.ad2 {
+    grid-area: 3 / 2 / 7 / 3;
+}
+.ad5 {
+    grid-area: 5 / 1 / 7 / 2;
+}
+.ad3 {
+    grid-area: 1 / 3 / 5 / 4;
+}
+.ad6 {
+    grid-area: 5 / 3 / 7 / 4;
+}
