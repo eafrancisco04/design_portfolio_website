@@ -254,3 +254,12 @@ img {
     grid-area: 5 / 3 / 6 / 4;
 }
 
+.tech1 {
+    grid-area: 1 / 1 / 4 / 4;
+}
+.tech2 {
+    grid-area: 4 / 1 / 6 / 3;
+}
+.tech { 
+    grid-area: 4 / 3 / 6 / 4;
+}
