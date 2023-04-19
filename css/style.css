@@ -55,6 +55,36 @@ main {
     margin-left: 300px;
     padding: 1em;
 }
+/* HOME PAGE */
+/* Reference for animated gradient text in the following section https://www.amitmerchant.com/animated-gradient-effect-in-css/ */
+h1 {
+    font-family: arial;
+    font-size: 5em;
+    background: linear-gradient(40deg,
+          #7953cd 20%,
+          #00affa 30%,
+          #29f0be 70%,
+          #0ddb3d 80%
+      );
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-fill-color: transparent;
+      background-size: 500% auto;
+      animation: shine 3s ease-in-out infinite alternate;
+  }
+  
+  @keyframes shine {
+      0% {
+          background-position: 0% 50%;
+      }
+      100% {
+          background-position: 100% -50%;
+
+      }
+  }
+  
+
 /* 
 STYLING FOR GRID FOR PROJECTS PAGES */
 h2{
@@ -86,32 +116,3 @@ img {
     width: 100%;
 }
 
-
-
-h1 {
-    font-family: arial;
-    font-size: 5em;
-      background: linear-gradient(
-          to right,
-          #7953cd 20%,
-          #00affa 30%,
-          #29f0be 70%,
-          #0ddb3d 80%
-      );
-      -webkit-background-clip: text;
-      background-clip: text;
-      -webkit-text-fill-color: transparent;
-      text-fill-color: transparent;
-      background-size: 500% auto;
-      animation: textShine 5s ease-in-out infinite alternate;
-  }
-  
-  @keyframes textShine {
-      0% {
-          background-position: 0% 50%;
-      }
-      100% {
-          background-position: 100% 50%;
-      }
-  }
-  
