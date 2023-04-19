@@ -234,3 +234,23 @@ img {
 .ad6 {
     grid-area: 5 / 3 / 7 / 4;
 }
+
+.magazine1 {
+    grid-area: 1 / 2 / 4 / 4;
+}
+.magazine2 {
+    grid-area: 1 / 1 / 4 / 2;
+}
+.magazine3 {
+    grid-area: 6 / 3 / 7 / 4;
+}
+.magazine4 {
+    grid-area: 4 / 1 / 5 / 4;
+}
+.magazine5 {
+    grid-area: 5 / 1 / 7 / 3;
+}
+.magazine6 {
+    grid-area: 5 / 3 / 6 / 4;
+}
+
