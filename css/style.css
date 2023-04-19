@@ -117,25 +117,76 @@ h3 {
 /* 
 STYLING FOR GRID FOR PROJECTS PAGES */
 .container {
+    margin-bottom: 1em;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+}
+li {
+    text-decoration: none;
+    list-style: none;
 }
 .container .info {
-    max-width: 50%;
+    max-width: 45%;
     max-height: 100vh;
+}
+.tags {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 img {
     width: 100%;
 }
 .projOne {
-    display: grid;
+    /* display: grid;
     gap: 1rem;
     grid-template-columns:repeat(auto-fit, minmax(240px, 1fr));
-    grid-auto-rows:240px;
+    grid-auto-rows:240px; */
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
 }
 
-.independent3 {
-    grid-column: span 2 / auto;
+.independent1 {
     width: 100%;
+    grid-area: 1 / 1 / 2 / 2;
+}
+.independent2 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+.independent3 {
+    grid-area: 2 / 2 / 4 / 3;
+}
+.independent4 {
+    grid-area: 2 / 1 / 4 / 2;
+}
+.independent5 {
+    grid-area: 2 / 3 / 4 / 4;
+}
+.independent6 {
+    grid-area: 1 / 3 / 2 / 4;
 }
 
+
+.independent7 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+.independent8 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+.independent9 {
+    grid-area: 2 / 1 / 3 / 3;
+}
+.independent10 {
+    grid-area: 1 / 3 / 3 / 4;
+}
+.independent11 {
+    grid-area: 2 / 3 / 3 / 4;
+}
+.independent12 {
+    grid-area: 3 / 3 / 4 / 4;
+}
