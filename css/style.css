@@ -115,12 +115,15 @@ h3 {
     width: 40%;
     max-height: 10%;
     margin: 1em;
+    overflow:hidden;
 }
 .gallery img {
     height: auto;
+    transition: transform 0.4s ease;   
 }
 .gallery img:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
+    width: 100%;
 }
 /* 
 STYLING FOR GRID FOR PROJECTS PAGES */
