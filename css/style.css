@@ -119,6 +119,9 @@ h3 {
 .gallery img {
     height: auto;
 }
+.gallery img:hover {
+    transform: scale(1.1);
+}
 /* 
 STYLING FOR GRID FOR PROJECTS PAGES */
 .container {
