@@ -361,3 +361,13 @@ img {
     }
 
 }
+
+button {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 150px;
+    height: 50px;
+    font-size: 1em;
+}
+input {
+    border: 5px solid #9fcce0;
+}
