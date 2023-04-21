@@ -141,12 +141,8 @@ li {
 img {
     width: 100%;
 }
+/* Following styling witht he help of https://cssgrid-generator.netlify.app/ */
 .proj {
-    /* display: grid;
-    gap: 1rem;
-    grid-template-columns:repeat(auto-fit, minmax(240px, 1fr));
-    grid-auto-rows:240px; */
-
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -276,4 +272,20 @@ img {
 }
 .can3 {
     grid-area: 1 / 3 / 2 / 4;
+}
+
+/* ABOUT PAGE */
+.about {
+    padding: 2em;
+    margin-top: 4em;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+.about section {
+    width: 40%;
+}
+.about img { 
+    width: 400px;
 }
