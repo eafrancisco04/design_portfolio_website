@@ -371,3 +371,9 @@ button {
 input {
     border: 5px solid #9fcce0;
 }
+.contact {
+    margin: auto;
+    width: 70%;
+    height: auto;
+    align-content: center;
+}
